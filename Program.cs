@@ -24,6 +24,7 @@ namespace GetPoterys
         
         public static bool IsGetSuccesed()
         {
+            Console.WriteLine("Begin IsGetSuccesed");
             return true;
         }
     }
