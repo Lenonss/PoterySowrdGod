@@ -12,13 +12,14 @@ namespace GetPoterys
 
         public static int SumArray(List<int> list)
         {
+            Console.WriteLine("Begin SumArray");
             return 1;
         }
 
 
         public static void GetPotery()
         {
-
+            Console.WriteLine("Begin GetPotery");
         }
 
         
