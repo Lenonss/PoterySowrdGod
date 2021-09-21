@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aabce7c164e34364b4d336c5874e2db, type: 3}
+  m_Name: Potery4
+  m_EditorClassIdentifier: 
+  PoteryId: 3
+  PoteryName: "\u6625\u671B"
+  WordsDic:
+    m_keys: 0000000001000000020000000300000004000000050000000600000007000000
+    m_values:
+    - data:
+      - "\u56FD"
+      - "\u7834"
+      - "\u5C71"
+      - "\u6CB3"
+      - "\u5728"
+    - data:
+      - "\u57CE"
+      - "\u6625"
+      - "\u8349"
+      - "\u6728"
+      - "\u6DF1"
+    - data:
+      - "\u611F"
+      - "\u65F6"
+      - "\u82B1"
+      - "\u6E85"
+      - "\u6CEA"
+    - data:
+      - "\u6068"
+      - "\u522B"
+      - "\u9E1F"
+      - "\u60CA"
+      - "\u5FC3"
+    - data:
+      - "\u70FD"
+      - "\u706B"
+      - "\u8FDE"
+      - "\u4E09"
+      - "\u6708"
+    - data:
+      - "\u5BB6"
+      - "\u4E66"
+      - "\u62B5"
+      - "\u4E07"
+      - "\u91D1"
+    - data:
+      - "\u767D"
+      - "\u5934"
+      - "\u6414"
+      - "\u66F4"
+      - "\u77ED"
+    - data:
+      - "\u6D51"
+      - "\u6B32"
+      - "\u4E0D"
+      - "\u80DC"
+      - "\u7C2A"
+  PoteryWordsList:
+  - "\u56FD"
+  - "\u7834"
+  - "\u5C71"
+  - "\u6CB3"
+  - "\u5728"
+  - "\u57CE"
+  - "\u6625"
+  - "\u8349"
+  - "\u6728"
+  - "\u6DF1"
+  - "\u611F"
+  - "\u65F6"
+  - "\u82B1"
+  - "\u6E85"
+  - "\u6CEA"
+  - "\u6068"
+  - "\u522B"
+  - "\u9E1F"
+  - "\u60CA"
+  - "\u5FC3"
+  - "\u70FD"
+  - "\u706B"
+  - "\u8FDE"
+  - "\u4E09"
+  - "\u6708"
+  - "\u5BB6"
+  - "\u4E66"
+  - "\u62B5"
+  - "\u4E07"
+  - "\u91D1"
+  - "\u767D"
+  - "\u5934"
+  - "\u6414"
+  - "\u66F4"
+  - "\u77ED"
+  - "\u6D51"
+  - "\u6B32"
+  - "\u4E0D"
+  - "\u80DC"
+  - "\u7C2A"
+  _poteryWords: "\u56FD\u7834\u5C71\u6CB3\u5728\u57CE\u6625\u8349\u6728\u6DF1\u611F\u65F6\u82B1\u6E85\u6CEA\u6068\u522B\u9E1F\u60CA\u5FC3\u70FD\u706B\u8FDE\u4E09\u6708\u5BB6\u4E66\u62B5\u4E07\u91D1\u767D\u5934\u6414\u66F4\u77ED\u6D51\u6B32\u4E0D\u80DC\u7C2A"
+  buffTime: 16
+  bornContent: "\u56FD\u7834\u5C71\u6CB3\u5728\uFF0C\u57CE\u6625\u8349\u6728\u6DF1\u3002\n\u611F\u65F6\u82B1\u6E85\u6CEA\uFF0C\u6068\u522B\u9E1F\u60CA\u5FC3\u3002\r\n\u70FD\u706B\u8FDE\u4E09\u6708\uFF0C\u5BB6\u4E66\u62B5\u4E07\u91D1\u3002\r\n\u767D\u5934\u6414\u66F4\u77ED\uFF0C\u6D51\u6B32\u4E0D\u80DC\u7C2A\u3002"

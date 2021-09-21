@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206ad36142c27f540a2974331274f91f, type: 3}
+  m_Name: mainPoteryLibrary
+  m_EditorClassIdentifier: 
+  Pages:
+  - m_keys: 00000000010000000200000003000000
+    m_values:
+    - {fileID: 11400000, guid: d41947033930a4eb0847a1ca5d873bdc, type: 2}
+    - {fileID: 11400000, guid: be41351dc0eee2641a8ddd8e7b75d6aa, type: 2}
+    - {fileID: 11400000, guid: 19fa79b43d8f68d46b21b40e8d9f2802, type: 2}
+    - {fileID: 11400000, guid: 95a392e648401ed43b3f704e5dc681ca, type: 2}

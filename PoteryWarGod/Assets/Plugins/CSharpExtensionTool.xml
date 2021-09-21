@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CSharpExtensionTool</name>
+    </assembly>
+    <members>
+        <member name="T:CSharpExtensionTool.Interfaces.IDuplicateClass">
+            <summary>
+            引用类型副本接口
+            </summary>
+        </member>
+        <member name="M:CSharpExtensionTool.Interfaces.IDuplicateClass.GetDuplicateClass``1(``0)">
+            <summary>
+            生成给定类对象的副本类对象返回
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="OriClass">初始类</param>
+            <returns></returns>
+        </member>
+        <member name="M:CSharpExtensionTool.ListExtension.ListEx.InitListWithStructValue``1(System.Collections.Generic.List{``0},``0,System.Int32)">
+            <summary>
+            指定值初始化List数组,可指定数组容量。
+            指定类型不可为引用类型
+            </summary>
+            <typeparam name="ST">数组类型，限定为struct</typeparam>
+            <param name="selfList">数组</param>
+            <param name="Value">指定值</param>
+            <param name="capcity">List.Count=0才起效</param>
+            <returns></returns>
+        </member>
+        <member name="M:CSharpExtensionTool.ListExtension.ListEx.InitListWithClassValue``1(System.Collections.Generic.List{``0},``0,System.Int32)">
+            <summary>
+            指定值初始化List数组,可指定数组容量。
+            实现IDuplicateClass接口的可引用类
+            </summary>
+            <typeparam name="T">数组类型，限定为引用类型</typeparam>
+            <param name="selfList">数组</param>
+            <param name="Value">指定值</param>
+            <param name="capcity">List.Count=0才起效</param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:CSharpExtensionTool.ListExtension.ListEx.GetADuplicateList_Struct``1(System.Collections.Generic.List{``0})" -->
+        <!-- Badly formed XML comment ignored for member "M:CSharpExtensionTool.ListExtension.ListEx.GetADuplicateList_Class``1(System.Collections.Generic.List{``0})" -->
+    </members>
+</doc>

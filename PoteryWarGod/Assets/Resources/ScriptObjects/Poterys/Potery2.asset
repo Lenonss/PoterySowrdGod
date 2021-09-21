@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aabce7c164e34364b4d336c5874e2db, type: 3}
+  m_Name: Potery2
+  m_EditorClassIdentifier: 
+  PoteryId: 1
+  PoteryName: "\u6625\u6653"
+  WordsDic:
+    m_keys: 00000000010000000200000003000000
+    m_values:
+    - data:
+      - "\u6625"
+      - "\u7720"
+      - "\u4E0D"
+      - "\u89C9"
+      - "\u6653"
+    - data:
+      - "\u5904"
+      - "\u5904"
+      - "\u95FB"
+      - "\u557C"
+      - "\u9E1F"
+    - data:
+      - "\u591C"
+      - "\u6765"
+      - "\u98CE"
+      - "\u96E8"
+      - "\u58F0"
+    - data:
+      - "\u82B1"
+      - "\u843D"
+      - "\u77E5"
+      - "\u591A"
+      - "\u5C11"
+  PoteryWordsList:
+  - "\u6625"
+  - "\u7720"
+  - "\u4E0D"
+  - "\u89C9"
+  - "\u6653"
+  - "\u5904"
+  - "\u95FB"
+  - "\u557C"
+  - "\u9E1F"
+  - "\u591C"
+  - "\u6765"
+  - "\u98CE"
+  - "\u96E8"
+  - "\u58F0"
+  - "\u82B1"
+  - "\u843D"
+  - "\u77E5"
+  - "\u591A"
+  - "\u5C11"
+  _poteryWords: "\u6625\u7720\u4E0D\u89C9\u6653\u5904\u5904\u95FB\u557C\u9E1F\u591C\u6765\u98CE\u96E8\u58F0\u82B1\u843D\u77E5\u591A\u5C11"
+  buffTime: 8
+  bornContent: "\u6625\u7720\u4E0D\u89C9\u6653\uFF0C\u5904\u5904\u95FB\u557C\u9E1F\u3002\r\n\u591C\u6765\u98CE\u96E8\u58F0\uFF0C\u82B1\u843D\u77E5\u591A\u5C11\u3002"
