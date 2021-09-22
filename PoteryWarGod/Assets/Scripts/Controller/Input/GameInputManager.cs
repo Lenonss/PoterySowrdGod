@@ -6,7 +6,6 @@ using UnityEngine.EventSystems;
 
 public class GameInputManager : Singleton<GameInputManager>
 {
-    public static GameInputManager Instance;
     [Tooltip("诗词序号Index")] public List<int> _poteryIndexes = new List<int>();
 
     [Tooltip("字块1对应按键")] public KeyCode firstChooseKey = KeyCode.UpArrow;
@@ -16,14 +15,17 @@ public class GameInputManager : Singleton<GameInputManager>
     [Tooltip("字块3对应按键")] public KeyCode thirdChooseKey = KeyCode.LeftArrow;
 
     [Tooltip("字块4对应按键")] public KeyCode fourthChooseKey = KeyCode.RightArrow;
-    
 
+    [Tooltip("重新开始字块循环按键")] public KeyCode ReStartChose = KeyCode.R;
+    
     /// <summary>
     /// 选择字块事件
     /// </summary>
     public static event Action<ChooseCharArgs> OnChooseChar;
-    
-
+    /// <summary>
+    /// 重新选字事件
+    /// </summary>
+    public static event Action OnReStartChose;
     // Start is called before the first frame update
     void Start()
     {
@@ -70,6 +72,10 @@ public class GameInputManager : Singleton<GameInputManager>
                 ChooseId = 4
             };
             OnChooseChar?.Invoke(arg);
+        }
+        else if (Input.GetKeyDown(ReStartChose))
+        {
+            OnReStartChose?.Invoke();
         }
     }
 

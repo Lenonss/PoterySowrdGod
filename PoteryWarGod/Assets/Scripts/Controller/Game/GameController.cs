@@ -16,11 +16,8 @@ public class GameController : Singleton<GameController>
 
     [SerializeField]
     public ShowPCharanel panel;
-
     //诗词字符串数组
     private List<PoterySC> _gamingPoterys = new List<PoterySC>();
-    //诗词数目
-    private int _poteryNums = 0;
     //当前显示的字块
     private List<string> _curWords;
     //截止当前的输入字符
@@ -35,6 +32,13 @@ public class GameController : Singleton<GameController>
     private void OnEnable()
     {
         GameInputManager.OnChooseChar += OnWordChosed;
+        GameInputManager.OnReStartChose += OnReStartChosed;
+    }
+
+    private void OnReStartChosed()
+    {
+        //重新开始游戏
+        ReStartGame();
     }
 
     void Start()
@@ -51,6 +55,7 @@ public class GameController : Singleton<GameController>
     private void OnDisable()
     {
         GameInputManager.OnChooseChar -= OnWordChosed;
+        GameInputManager.OnReStartChose -= OnReStartChosed;
     }
 
     /// <summary>
@@ -60,10 +65,8 @@ public class GameController : Singleton<GameController>
     public void InitPoteryStrList(List<PoterySC> _poterys)
     {
         _gamingPoterys.Clear();
-        _poteryNums = 0;
 
         _gamingPoterys = _poterys;
-        _poteryNums = _poterys.Count;
     }
 
     public void StartGame()
@@ -72,7 +75,10 @@ public class GameController : Singleton<GameController>
         ShowFirstWords();
         StartCoroutine(AfterChose());
     }
-
+    /// <summary>
+    /// 之后的出字函数
+    /// </summary>
+    /// <returns></returns>
     private IEnumerator AfterChose()
     {
         while (true)
@@ -84,10 +90,11 @@ public class GameController : Singleton<GameController>
                 if (_finishedArg.isFinished)
                 {
                     Debug.Log("finished");
-                    //TODO:隐藏显示面板
-                    //TODO:开启Buff状态
+                    panel.Panel.SetActive(false);
+                    Debug.Log("Buff Start");
                     yield return new WaitForSecondsRealtime(_finishedArg.finishedPotery.buffTime);
-                    //TODO:显示面板
+                    Debug.Log("Buff Over");
+                    panel.Panel.SetActive(true);
                 }
                 break;
             }
@@ -150,13 +157,21 @@ public class GameController : Singleton<GameController>
         return true;
     }
 
+    private int record = 0;
     public void ShowFirstWords()
     {
+        
         //TODO:代码需要重新设计
         var firstWords = GetFirstShowWords();
         _curWords = firstWords.ToList();//当前字块数组赋值
         randomList(_curWords);//打乱数组元素
         ShowWordToUI(_curWords);
+        record++;
+        Debug.Log(record);
+        if (record==2)
+        {
+            Debug.Log("in");
+        }
     }
 
     /// <summary>
@@ -278,4 +293,5 @@ public class ShowPCharanel
     public GameObject ShowCube2;
     public GameObject ShowCube3;
     public GameObject ShowCube4;
+    public GameObject Panel;
 }
