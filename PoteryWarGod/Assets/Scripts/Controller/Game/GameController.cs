@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = System.Random;
 using URandom = UnityEngine.Random;
 public class GameController : Singleton<GameController>
 {
@@ -31,9 +32,14 @@ public class GameController : Singleton<GameController>
     //是否完成输入
     private FinishedArg _finishedArg = new FinishedArg() {isFinished = false};
 
+    private void OnEnable()
+    {
+        GameInputManager.OnChooseChar += OnWordChosed;
+    }
+
     void Start()
     {
-        GameInputManager.Instance.OnChooseChar += OnWordChosed;
+        
     }
 
     // Update is called once per frame
@@ -44,7 +50,7 @@ public class GameController : Singleton<GameController>
 
     private void OnDisable()
     {
-        GameInputManager.Instance.OnChooseChar -= OnWordChosed;
+        GameInputManager.OnChooseChar -= OnWordChosed;
     }
 
     /// <summary>
@@ -139,6 +145,7 @@ public class GameController : Singleton<GameController>
         AddRandomWord(panel.ShowNum-sortedWords.Count,sortedWords);//获得随机字
         //显示到UI
         _curWords = sortedWords.ToList();
+        randomList(_curWords);//打乱数组元素
         ShowWordToUI(_curWords);
         return true;
     }
@@ -148,9 +155,14 @@ public class GameController : Singleton<GameController>
         //TODO:代码需要重新设计
         var firstWords = GetFirstShowWords();
         _curWords = firstWords.ToList();//当前字块数组赋值
+        randomList(_curWords);//打乱数组元素
         ShowWordToUI(_curWords);
     }
 
+    /// <summary>
+    /// 把字块显示到视图层
+    /// </summary>
+    /// <param name="words">需要显示的字块数组</param>
     public void ShowWordToUI(List<string> words)
     {
         panel.ShowCube1.transform.GetChild(0).GetComponent<Text>().text = words[0];
@@ -236,7 +248,27 @@ public class GameController : Singleton<GameController>
         Debug.Log("Input:" + word + "  " + _curChosedStr);
         _chosed = true;
     }
-
+    /// <summary>
+    /// 打乱数组元素
+    /// </summary>
+    /// <param name="list"></param>
+    /// <typeparam name="T"></typeparam>
+    private void randomList<T>(List<T> list)
+    {
+        Random ran = new Random();
+        int index = 0;
+        T temp;
+        for (int i = 0; i < list.Count; i++)
+        {
+            index = ran.Next(0, list.Count - 1);
+            if (index!=i)
+            {
+                temp = list[index];
+                list[index] = list[i];
+                list[i] = temp;
+            }
+        }
+    }
 }
 [Serializable]
 public class ShowPCharanel

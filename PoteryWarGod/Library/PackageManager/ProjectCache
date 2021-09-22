@@ -1,20 +1,20 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: F:/ItemsKU/PoterySwordGod/PoteryWarGod/Packages/manifest.json
+    m_FilePath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637675783043685885
-    m_Hash: 1998714057
+      ticks: 637678829370000000
+    m_Hash: 2139103247
   m_LockFileStatus:
-    m_FilePath: F:/ItemsKU/PoterySwordGod/PoteryWarGod/Packages/packages-lock.json
+    m_FilePath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637675783043695843
-    m_Hash: 394206149
+      ticks: 637678829370000000
+    m_Hash: 2103273527
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 5.0.6
       source: 1
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.2d.animation@5.0.6
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.2d.animation@5.0.6
       assetPath: Packages/com.unity.2d.animation
       name: com.unity.2d.animation
       displayName: 2D Animation
@@ -77,6 +77,8 @@ m_PackageAssets:
         - 3.2.5
         - 3.2.6
         - 3.2.9
+        - 3.2.10
+        - 3.2.11
         - 4.0.0
         - 4.0.1
         - 4.1.0
@@ -95,16 +97,20 @@ m_PackageAssets:
         - 5.0.4
         - 5.0.5
         - 5.0.6
+        - 5.0.7
         - 6.0.0-pre.1
         - 6.0.0-pre.2
         - 6.0.1
         - 6.0.3
         - 6.0.4
+        - 6.0.5
         - 7.0.0-pre.2
         - 7.0.0-pre.3
+        - 7.0.0
         compatible:
         - 5.0.6
-        verified: 5.0.6
+        - 5.0.7
+        verified: 5.0.7
       dependencies:
       - name: com.unity.2d.common
         version: 4.0.3
@@ -163,7 +169,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.0.1
       source: 1
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.2d.pixel-perfect@4.0.1
       assetPath: Packages/com.unity.2d.pixel-perfect
       name: com.unity.2d.pixel-perfect
       displayName: 2D Pixel Perfect
@@ -202,6 +208,7 @@ m_PackageAssets:
         - 5.0.0-pre.1
         - 5.0.0-pre.2
         - 5.0.0
+        - 5.0.1
         compatible:
         - 4.0.1
         verified: 4.0.1
@@ -237,7 +244,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.1.0
       source: 1
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.2d.psdimporter@4.1.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.2d.psdimporter@4.1.0
       assetPath: Packages/com.unity.2d.psdimporter
       name: com.unity.2d.psdimporter
       displayName: 2D PSD Importer
@@ -294,6 +301,7 @@ m_PackageAssets:
         - 6.0.0-pre.2
         - 6.0.0-pre.3
         - 6.0.0-pre.4
+        - 6.0.0
         compatible:
         - 4.1.0
         verified: 4.1.0
@@ -354,7 +362,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.2d.sprite@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.2d.sprite@1.0.0
       assetPath: Packages/com.unity.2d.sprite
       name: com.unity.2d.sprite
       displayName: 2D Sprite
@@ -405,7 +413,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 5.1.3
       source: 1
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.2d.spriteshape@5.1.3
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.2d.spriteshape@5.1.3
       assetPath: Packages/com.unity.2d.spriteshape
       name: com.unity.2d.spriteshape
       displayName: 2D SpriteShape
@@ -453,6 +461,7 @@ m_PackageAssets:
         - 3.0.14
         - 3.0.15
         - 3.0.16
+        - 3.0.17
         - 4.0.0
         - 4.0.1
         - 4.0.2
@@ -470,15 +479,18 @@ m_PackageAssets:
         - 5.1.1
         - 5.1.2
         - 5.1.3
+        - 5.1.4
         - 6.0.0-pre.1
         - 6.0.0-pre.2
         - 6.0.0
         - 6.0.1
         - 7.0.0-pre.2
         - 7.0.0-pre.3
+        - 7.0.0
         compatible:
         - 5.1.3
-        verified: 5.1.3
+        - 5.1.4
+        verified: 5.1.4
       dependencies:
       - name: com.unity.mathematics
         version: 1.1.0
@@ -541,7 +553,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.2d.tilemap@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.2d.tilemap@1.0.0
       assetPath: Packages/com.unity.2d.tilemap
       name: com.unity.2d.tilemap
       displayName: 2D Tilemap Editor
@@ -591,7 +603,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.7.1
       source: 1
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.collab-proxy@1.7.1
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.collab-proxy@1.7.1
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -630,6 +642,8 @@ m_PackageAssets:
         - 1.5.7
         - 1.6.0
         - 1.7.1
+        - 1.8.0
+        - 1.9.0
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -642,6 +656,8 @@ m_PackageAssets:
         - 2.1.0-preview.6
         compatible:
         - 1.7.1
+        - 1.8.0
+        - 1.9.0
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -698,7 +714,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -805,7 +821,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.9
       source: 1
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.ide.visualstudio@2.0.9
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.ide.visualstudio@2.0.9
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -892,7 +908,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -920,6 +936,7 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.2
         - 1.2.3
+        - 1.2.4
         compatible:
         - 1.0.2
         - 1.0.3
@@ -932,7 +949,8 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.2
         - 1.2.3
-        verified: 1.2.3
+        - 1.2.4
+        verified: 1.2.4
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -961,7 +979,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.27
       source: 1
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.test-framework@1.1.27
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.test-framework@1.1.27
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -1006,9 +1024,11 @@ m_PackageAssets:
         - 1.1.24
         - 1.1.26
         - 1.1.27
+        - 1.1.29
         compatible:
         - 1.1.27
-        verified: 1.1.27
+        - 1.1.29
+        verified: 1.1.29
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -1051,7 +1071,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.6
       source: 1
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.textmeshpro@3.0.6
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -1124,6 +1144,7 @@ m_PackageAssets:
         - 1.5.4
         - 1.5.5
         - 1.5.6
+        - 1.6.0-preview.1
         - 2.0.0
         - 2.0.1-preview.1
         - 2.0.1
@@ -1145,6 +1166,7 @@ m_PackageAssets:
         - 2.1.4
         - 2.1.5
         - 2.1.6
+        - 2.2.0-preview.1
         - 3.0.0-preview.1
         - 3.0.0-preview.3
         - 3.0.0-preview.4
@@ -1162,8 +1184,10 @@ m_PackageAssets:
         - 3.0.4
         - 3.0.5
         - 3.0.6
+        - 3.2.0-pre.1
         compatible:
         - 3.0.6
+        - 3.2.0-pre.1
         verified: 3.0.6
       dependencies:
       - name: com.unity.ugui
@@ -1206,7 +1230,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.8
       source: 1
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.timeline@1.4.8
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -1286,6 +1310,7 @@ m_PackageAssets:
         - 1.6.0-pre.4
         - 1.6.0-pre.5
         - 1.6.1
+        - 1.6.2
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -1306,6 +1331,7 @@ m_PackageAssets:
         - 1.6.0-pre.4
         - 1.6.0-pre.5
         - 1.6.1
+        - 1.6.2
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -1351,12 +1377,105 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
         revision: 527e4364e28028f20f04fc51db671eb4bb910a26
         path: 
+    - packageId: com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.22-preview
+      testable: 0
+      isDirectDependency: 1
+      version: 0.1.22-preview
+      source: 1
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.22-preview
+      assetPath: Packages/com.unity.toolchain.macos-x86_64-linux-x86_64
+      name: com.unity.toolchain.macos-x86_64-linux-x86_64
+      displayName: Toolchain MacOS Linux x64
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Cross-compilation toolchain to build player target Linux x86_64
+        on host Darwin x86_64
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.4-preview
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.7-preview
+        - 0.1.8-preview
+        - 0.1.9-preview
+        - 0.1.10-preview
+        - 0.1.11-preview
+        - 0.1.13-preview
+        - 0.1.15-preview
+        - 0.1.16-preview
+        - 0.1.17-preview
+        - 0.1.18-preview
+        - 0.1.19-preview
+        - 0.1.20-preview
+        - 0.1.21-preview
+        - 0.1.22-preview
+        compatible:
+        - 0.1.4-preview
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.7-preview
+        - 0.1.8-preview
+        - 0.1.9-preview
+        - 0.1.10-preview
+        - 0.1.11-preview
+        - 0.1.13-preview
+        - 0.1.15-preview
+        - 0.1.16-preview
+        - 0.1.17-preview
+        - 0.1.18-preview
+        - 0.1.19-preview
+        - 0.1.20-preview
+        - 0.1.21-preview
+        - 0.1.22-preview
+        verified: 
+      dependencies:
+      - name: com.unity.sysroot
+        version: 0.1.19-preview
+      - name: com.unity.sysroot.linux-x86_64
+        version: 0.1.14-preview
+      resolvedDependencies:
+      - name: com.unity.sysroot
+        version: 0.1.19-preview
+      - name: com.unity.sysroot.linux-x86_64
+        version: 0.1.14-preview
+      keywords:
+      - toolchain
+      - macos
+      - darwin
+      - linux
+      - cross-compilation
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.cn
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637619741700000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/com.unity.sysroot.git
+        revision: c23b9fb202dceb7b518aa7353d96a3e2eae227c5
+        path: 
     - packageId: com.unity.ugui@1.0.0
       testable: 0
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.ugui@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.ugui@1.0.0
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -1419,7 +1538,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.ai@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.ai@1.0.0
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -1467,7 +1586,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.androidjni@1.0.0
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -1515,7 +1634,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.animation@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.animation@1.0.0
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -1563,7 +1682,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.assetbundle@1.0.0
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -1611,7 +1730,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.audio@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.audio@1.0.0
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -1659,7 +1778,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.cloth@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.cloth@1.0.0
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -1711,7 +1830,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.director@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.director@1.0.0
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -1767,7 +1886,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.imageconversion@1.0.0
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -1816,7 +1935,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.imgui@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.imgui@1.0.0
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -1864,7 +1983,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -1912,7 +2031,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.particlesystem@1.0.0
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -1960,7 +2079,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.physics@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.physics@1.0.0
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -2008,7 +2127,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.physics2d@1.0.0
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -2056,7 +2175,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.screencapture@1.0.0
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -2108,7 +2227,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.terrain@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.terrain@1.0.0
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -2156,7 +2275,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.terrainphysics@1.0.0
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -2212,7 +2331,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.tilemap@1.0.0
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -2264,7 +2383,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.ui@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.ui@1.0.0
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -2312,7 +2431,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.uielements@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.uielements@1.0.0
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -2376,7 +2495,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.umbra@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.umbra@1.0.0
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -2424,7 +2543,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.unityanalytics@1.0.0
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -2480,7 +2599,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -2528,7 +2647,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -2584,7 +2703,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -2640,7 +2759,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -2696,7 +2815,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -2768,7 +2887,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.vehicles@1.0.0
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -2820,7 +2939,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.video@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.video@1.0.0
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -2880,7 +2999,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.vr@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.vr@1.0.0
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -2942,7 +3061,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.wind@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.wind@1.0.0
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -2990,7 +3109,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.xr@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.xr@1.0.0
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -3050,7 +3169,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.subsystems@1.0.0
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -3102,7 +3221,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.modules.uielementsnative@1.0.0
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -3156,12 +3275,157 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
+    - packageId: com.unity.sysroot@0.1.19-preview
+      testable: 0
+      isDirectDependency: 0
+      version: 0.1.19-preview
+      source: 1
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.sysroot@0.1.19-preview
+      assetPath: Packages/com.unity.sysroot
+      name: com.unity.sysroot
+      displayName: Sysroot Base
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: This is the base sysroot package required by all sysroot and toolchain
+        packages
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.7-preview
+        - 0.1.8-preview
+        - 0.1.9-preview
+        - 0.1.10-preview
+        - 0.1.11-preview
+        - 0.1.12-preview
+        - 0.1.14-preview
+        - 0.1.15-preview
+        - 0.1.16-preview
+        - 0.1.17-preview
+        - 0.1.18-preview
+        - 0.1.19-preview
+        compatible:
+        - 0.1.7-preview
+        - 0.1.8-preview
+        - 0.1.9-preview
+        - 0.1.10-preview
+        - 0.1.11-preview
+        - 0.1.12-preview
+        - 0.1.14-preview
+        - 0.1.15-preview
+        - 0.1.16-preview
+        - 0.1.17-preview
+        - 0.1.18-preview
+        - 0.1.19-preview
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - unity
+      - linux
+      - sysroot
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.cn
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637497460110000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/com.unity.sysroot.git
+        revision: 8717ab9c5b4f758bc542184e1872ed3fcce1e1f9
+        path: 
+    - packageId: com.unity.sysroot.linux-x86_64@0.1.14-preview
+      testable: 0
+      isDirectDependency: 0
+      version: 0.1.14-preview
+      source: 1
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.sysroot.linux-x86_64@0.1.14-preview
+      assetPath: Packages/com.unity.sysroot.linux-x86_64
+      name: com.unity.sysroot.linux-x86_64
+      displayName: Sysroot Linux x64
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Sysroot used to build unity player for linux x86_64
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.6-preview
+        - 0.1.7-preview
+        - 0.1.8-preview
+        - 0.1.9-preview
+        - 0.1.10-preview
+        - 0.1.11-preview
+        - 0.1.12-preview
+        - 0.1.13-preview
+        - 0.1.14-preview
+        - 0.1.15-preview
+        compatible:
+        - 0.1.6-preview
+        - 0.1.7-preview
+        - 0.1.8-preview
+        - 0.1.9-preview
+        - 0.1.10-preview
+        - 0.1.11-preview
+        - 0.1.12-preview
+        - 0.1.13-preview
+        - 0.1.14-preview
+        - 0.1.15-preview
+        verified: 
+      dependencies:
+      - name: com.unity.sysroot
+        version: 0.1.18-preview
+      resolvedDependencies:
+      - name: com.unity.sysroot
+        version: 0.1.19-preview
+      keywords:
+      - unity
+      - linux
+      - sysroot
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.cn
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637460700410000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/com.unity.sysroot.git
+        revision: 0d5e7b07c95f3ae15d6d80931a071b042e97189b
+        path: 
     - packageId: com.unity.ext.nunit@1.0.6
       testable: 0
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -3222,7 +3486,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 2.0.0
       source: 1
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0
       assetPath: Packages/com.unity.nuget.newtonsoft-json
       name: com.unity.nuget.newtonsoft-json
       displayName: Newtonsoft Json
@@ -3231,7 +3495,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: library
+      type: 
       description: 'Newtonsoft Json for use in Unity projects and Unity packages.
         Currently synced to version 12.0.2.
 
@@ -3246,9 +3510,27 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
         - 2.0.0
+        - 2.0.1-preview.1
         compatible:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
         - 2.0.0
+        - 2.0.1-preview.1
         verified: 2.0.0
       dependencies: []
       resolvedDependencies: []
@@ -3265,7 +3547,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637237898320000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3278,7 +3560,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.mathematics@1.1.0
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.mathematics@1.1.0
       assetPath: Packages/com.unity.mathematics
       name: com.unity.mathematics
       displayName: Mathematics
@@ -3353,7 +3635,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.0.3
       source: 1
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.2d.common@4.0.3
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.2d.common@4.0.3
       assetPath: Packages/com.unity.2d.common
       name: com.unity.2d.common
       displayName: 2D Common
@@ -3391,6 +3673,7 @@ m_PackageAssets:
         - 6.0.0-pre.2
         - 6.0.0-pre.3
         - 6.0.0-pre.4
+        - 6.0.0
         compatible:
         - 4.0.3
         verified: 4.0.3
@@ -3439,7 +3722,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.0.1
       source: 1
-      resolvedPath: F:\ItemsKU\PoterySwordGod\PoteryWarGod\Library\PackageCache\com.unity.2d.path@4.0.1
+      resolvedPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Library/PackageCache/com.unity.2d.path@4.0.1
       assetPath: Packages/com.unity.2d.path
       name: com.unity.2d.path
       displayName: 2D Path
@@ -3464,17 +3747,21 @@ m_PackageAssets:
         - 2.0.5
         - 2.0.6
         - 2.1.0
+        - 2.1.1
         - 3.0.0
         - 3.0.1
         - 3.0.2
         - 4.0.0
         - 4.0.1
+        - 4.0.2
         - 5.0.0-pre.1
         - 5.0.0-pre.2
         - 5.0.0
+        - 5.0.1
         compatible:
         - 4.0.1
-        verified: 4.0.1
+        - 4.0.2
+        verified: 4.0.2
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -3502,5 +3789,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: F:/ItemsKU/PoterySwordGod/PoteryWarGod/Packages
+m_ProjectPath: /Users/mac/Items/PoterySowrdGod/PoteryWarGod/Packages
 m_EditorVersion: 2020.3.15f2c1 (b25d0e34ed8a)
