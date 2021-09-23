@@ -65,7 +65,7 @@ public class GameController : Singleton<GameController>
     public void InitPoteryStrList(List<PoterySC> _poterys)
     {
         _gamingPoterys.Clear();
-
+        
         _gamingPoterys = _poterys;
     }
 
