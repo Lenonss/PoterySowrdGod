@@ -73,7 +73,7 @@ public class GameInputManager : Singleton<GameInputManager>
             };
             OnChooseChar?.Invoke(arg);
         }
-        else if (Input.GetKeyDown(ReStartChose))
+        else if (Input.GetKeyDown(ReStartChose)) 
         {
             OnReStartChose?.Invoke();
         }
@@ -91,8 +91,6 @@ public class GameInputManager : Singleton<GameInputManager>
     {
         //传递参数
         PoteryLibraryCtrl.Instance.BornGameCharLib(_poteryIndexes);//生成字库
-        GameController.Instance.InitPoteryStrList(
-            PoteryLibraryCtrl.Instance.GetPoterySCsByPIds(_poteryIndexes));//生成诗词字符串数组
         //清空数组
         _poteryIndexes.Clear();
         //开始游戏

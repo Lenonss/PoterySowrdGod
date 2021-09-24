@@ -17,7 +17,7 @@ public class GameController : Singleton<GameController>
     [SerializeField]
     public ShowPCharanel panel;
     //诗词字符串数组
-    private List<PoterySC> _gamingPoterys = new List<PoterySC>();
+    // private List<PoterySC> _gamingPoterys = new List<PoterySC>();
     //当前显示的字块
     private List<string> _curWords;
     //截止当前的输入字符
@@ -58,16 +58,16 @@ public class GameController : Singleton<GameController>
         GameInputManager.OnReStartChose -= OnReStartChosed;
     }
 
-    /// <summary>
-    /// 初始化几首诗词的内容字符串存储
-    /// </summary>
-    /// <param name="_poterys"></param>
-    public void InitPoteryStrList(List<PoterySC> _poterys)
-    {
-        _gamingPoterys.Clear();
-        
-        _gamingPoterys = _poterys;
-    }
+    // /// <summary>
+    // /// 初始化几首诗词的内容字符串存储
+    // /// </summary>
+    // /// <param name="_poterys"></param>
+    // public void InitPoteryStrList(List<PoterySC> _poterys)
+    // {
+    //     _gamingPoterys.Clear();
+    //     
+    //     _gamingPoterys = _poterys;
+    // }
 
     public void StartGame()
     {
@@ -124,7 +124,7 @@ public class GameController : Singleton<GameController>
         List<string> sortedWords = new List<string>();
         int chosedNum = _curChosedStr.Length;
         
-        foreach (var pSc in _gamingPoterys)
+        foreach (var pSc in PoteryLibraryCtrl.Instance._gamingPoterys)
         {
             var tempStr = pSc._poteryWords.Substring(0, chosedNum);//比较字符串
             if (_curChosedStr.Equals(tempStr))
@@ -200,7 +200,7 @@ public class GameController : Singleton<GameController>
         List<string> result = new List<string>();
         Dictionary<char, int> tempDic = new Dictionary<char, int>();
         //获得所有的第一个字(含重复)
-        foreach (var pStr in _gamingPoterys)
+        foreach (var pStr in PoteryLibraryCtrl.Instance._gamingPoterys)
         {
             firstWords.Add(pStr._poteryWords[0]);
         }
