@@ -67,6 +67,10 @@
      <Compile Include="Assets\Scripts\UtiledTools\AssetFileManager.cs" />
      <Compile Include="Assets\Scripts\UtiledTools\PathConfig.cs" />
      <Compile Include="Assets\Scripts\UtiledTools\StringEx.cs" />
+     <Compile Include="Assets\Scripts\BaseClass\UIBaseWindow.cs" />
+     <None Include="Assets\Resources\Characters\Aekashics-Librarium-Legendary-Knight-Michael\dragonbones_assets\Michael_settings.txt" />
+     <None Include="Assets\Resources\Characters\Aekashics-Librarium-Legendary-Knight-Michael\How to use.txt" />
+     <None Include="Assets\Resources\Characters\Aekashics-Librarium-Legendary-Knight-Michael\Terms of use.txt" />
  <Reference Include="UnityEngine">
  <HintPath>F:/ProgramFiles/Unitys/2020.3.15f2c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -646,14 +650,32 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>F:/ProgramFiles/Unitys/2020.3.15f2c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.IK.Runtime">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Editor">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InternalAPIEngineBridge.001">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="PsdPlugin">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Triangle.Runtime">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Runtime">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -663,6 +685,21 @@
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics.Editor">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Common.Runtime">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.IK.Editor">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Psdimporter.Editor">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -675,6 +712,15 @@
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Common.Editor">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InternalAPIEditorBridge.001">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

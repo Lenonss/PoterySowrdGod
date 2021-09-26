@@ -670,14 +670,32 @@
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.IK.Runtime">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Editor">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InternalAPIEngineBridge.001">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="PsdPlugin">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Triangle.Runtime">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Runtime">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -687,6 +705,21 @@
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics.Editor">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Common.Runtime">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.IK.Editor">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Psdimporter.Editor">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -699,6 +732,15 @@
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Common.Editor">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InternalAPIEditorBridge.001">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics">
+ <HintPath>F:/ItemsKU/PoterySwordGod/PoteryWarGod/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

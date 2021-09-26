@@ -16,16 +16,13 @@ public class GameController : Singleton<GameController>
 
     [SerializeField]
     public ShowPCharanel panel;
-    //诗词字符串数组
-    // private List<PoterySC> _gamingPoterys = new List<PoterySC>();
+
     //当前显示的字块
     private List<string> _curWords;
     //截止当前的输入字符
     private string _curChosedStr = "";
     //玩家选中字块了?
     private bool _chosed = false;
-    //是否需要重新循环
-    private bool _isRestart = false;
     //是否完成输入
     private FinishedArg _finishedArg = new FinishedArg() {isFinished = false};
 
@@ -34,13 +31,7 @@ public class GameController : Singleton<GameController>
         GameInputManager.OnChooseChar += OnWordChosed;
         GameInputManager.OnReStartChose += OnReStartChosed;
     }
-
-    private void OnReStartChosed()
-    {
-        //重新开始游戏
-        ReStartGame();
-    }
-
+    
     void Start()
     {
         
@@ -57,17 +48,7 @@ public class GameController : Singleton<GameController>
         GameInputManager.OnChooseChar -= OnWordChosed;
         GameInputManager.OnReStartChose -= OnReStartChosed;
     }
-
-    // /// <summary>
-    // /// 初始化几首诗词的内容字符串存储
-    // /// </summary>
-    // /// <param name="_poterys"></param>
-    // public void InitPoteryStrList(List<PoterySC> _poterys)
-    // {
-    //     _gamingPoterys.Clear();
-    //     
-    //     _gamingPoterys = _poterys;
-    // }
+    
 
     public void StartGame()
     {
@@ -156,22 +137,13 @@ public class GameController : Singleton<GameController>
         ShowWordToUI(_curWords);
         return true;
     }
-
-    private int record = 0;
+    
     public void ShowFirstWords()
     {
-        
         //TODO:代码需要重新设计
-        var firstWords = GetFirstShowWords();
-        _curWords = firstWords.ToList();//当前字块数组赋值
+        _curWords = GetFirstShowWords().ToList();//当前字块数组赋值
         randomList(_curWords);//打乱数组元素
         ShowWordToUI(_curWords);
-        record++;
-        Debug.Log(record);
-        if (record==2)
-        {
-            Debug.Log("in");
-        }
     }
 
     /// <summary>
@@ -252,6 +224,8 @@ public class GameController : Singleton<GameController>
         }
     }
 
+    #region 事件响应函数
+
     /// <summary>
     /// 选择响应事件函数
     /// </summary>
@@ -263,6 +237,17 @@ public class GameController : Singleton<GameController>
         Debug.Log("Input:" + word + "  " + _curChosedStr);
         _chosed = true;
     }
+    /// <summary>
+    /// 重新开始选字响应事件函数
+    /// </summary>
+    private void OnReStartChosed()
+    {
+        //重新开始游戏
+        ReStartGame();
+    }
+
+    #endregion
+
     /// <summary>
     /// 打乱数组元素
     /// </summary>

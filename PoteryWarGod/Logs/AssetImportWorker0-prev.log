@@ -1,0 +1,793 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.15f2c1 (b25d0e34ed8a) revision 11689230'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1237; Version 2009; 64bit' Language: 'zh' Physical Memory: 16258 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+F:\ProgramFiles\Unitys\2020.3.15f2c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/ItemsKU/PoterySwordGod/PoteryWarGod
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53564
+Successfully changed project path to: F:/ItemsKU/PoterySwordGod/PoteryWarGod
+F:/ItemsKU/PoterySwordGod/PoteryWarGod
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 47.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.15f2c1 (b25d0e34ed8a)
+[Subsystems] Discovering subsystems at path F:/ProgramFiles/Unitys/2020.3.15f2c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/ItemsKU/PoterySwordGod/PoteryWarGod/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   30.0.14.7111
+Initialize mono
+Mono path[0] = 'F:/ProgramFiles/Unitys/2020.3.15f2c1/Editor/Data/Managed'
+Mono path[1] = 'F:/ProgramFiles/Unitys/2020.3.15f2c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'F:/ProgramFiles/Unitys/2020.3.15f2c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/ProgramFiles/Unitys/2020.3.15f2c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001803 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 33.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.682 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1683ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (561ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (213ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (208ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009759 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.287 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2289ms)
+		BeginReloadAssembly (289ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1882ms)
+			LoadAssemblies (199ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (396ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (1157ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (172ms)
+				ProcessInitializeOnLoadAttributes (967ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1415 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.0 MB.
+System memory in use after: 68.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1847.
+Total: 4.506400 ms (FindLiveObjects: 0.240000 ms CreateObjectMapping: 0.083700 ms MarkObjects: 4.066800 ms  DeleteObjects: 0.113900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Resources/ScriptObjects/Poterys/Controller/mainPoteryLibrary.asset
+  artifactKey: Guid(9cfe5a7f987191340af4fb47f78d62e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ScriptObjects/Poterys/Controller/mainPoteryLibrary.asset using Guid(9cfe5a7f987191340af4fb47f78d62e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0721db4c253b62db597e60804c887c2f') in 0.132700 seconds 
+  Import took 0.137249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Resources/ScriptObjects/Config/BuffColorConfig.asset
+  artifactKey: Guid(a06aea76871655143b5c34e89db8a906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ScriptObjects/Config/BuffColorConfig.asset using Guid(a06aea76871655143b5c34e89db8a906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf6902f2e8e74f576daf940d169b1f7') in 0.015177 seconds 
+  Import took 0.018709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Resources/ScriptObjects/Poterys/Potery3.asset
+  artifactKey: Guid(19fa79b43d8f68d46b21b40e8d9f2802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ScriptObjects/Poterys/Potery3.asset using Guid(19fa79b43d8f68d46b21b40e8d9f2802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a438cc8b673ed88a052c5e18bcecf94') in 0.043266 seconds 
+  Import took 0.047715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Resources/ScriptObjects/Poterys/Potery1.asset
+  artifactKey: Guid(d41947033930a4eb0847a1ca5d873bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ScriptObjects/Poterys/Potery1.asset using Guid(d41947033930a4eb0847a1ca5d873bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b976293f41cc8b0f49b60a7227be61b') in 0.026770 seconds 
+  Import took 0.032538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Resources/ScriptObjects/Poterys/Potery2.asset
+  artifactKey: Guid(be41351dc0eee2641a8ddd8e7b75d6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ScriptObjects/Poterys/Potery2.asset using Guid(be41351dc0eee2641a8ddd8e7b75d6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82592887fd49877c9d7a98e3c0fca58e') in 0.011646 seconds 
+  Import took 0.016028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Resources/ScriptObjects/Poterys/Potery4.asset
+  artifactKey: Guid(95a392e648401ed43b3f704e5dc681ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ScriptObjects/Poterys/Potery4.asset using Guid(95a392e648401ed43b3f704e5dc681ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3077f443da3bd013052135d6bfe0a15') in 0.011276 seconds 
+  Import took 0.016791 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007302 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.605 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1608ms)
+		BeginReloadAssembly (259ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (1282ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (307ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (718ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (589ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1410 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.9 MB.
+System memory in use after: 68.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1850.
+Total: 4.681600 ms (FindLiveObjects: 0.189800 ms CreateObjectMapping: 0.040700 ms MarkObjects: 4.062300 ms  DeleteObjects: 0.387500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18352.060011 seconds.
+  path: Assets/Scenes/Test
+  artifactKey: Guid(7c832cea983ff634b9d5e71abe39baf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test using Guid(7c832cea983ff634b9d5e71abe39baf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e31deccf7d8a7c659a87c8977bf945') in 0.068336 seconds 
+  Import took 0.113320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.425542 seconds.
+  path: Assets/Scenes/Test/2DAnimation.unity
+  artifactKey: Guid(84e630b68b43f7c4bab09e7dd6b6ba5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test/2DAnimation.unity using Guid(84e630b68b43f7c4bab09e7dd6b6ba5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd38243a2a907f69f579ea4e32cb2f3') in 0.077954 seconds 
+  Import took 0.084622 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.137266 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.593 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1595ms)
+		BeginReloadAssembly (242ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (1292ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (297ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (748ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (609ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1905 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2348.
+Total: 3.506100 ms (FindLiveObjects: 0.226700 ms CreateObjectMapping: 0.090300 ms MarkObjects: 2.946000 ms  DeleteObjects: 0.242000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007225 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.245 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2245ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (2008ms)
+			LoadAssemblies (170ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (784ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (815ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (160ms)
+				ProcessInitializeOnLoadAttributes (636ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1906 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2353.
+Total: 3.773600 ms (FindLiveObjects: 0.174900 ms CreateObjectMapping: 0.054000 ms MarkObjects: 3.449800 ms  DeleteObjects: 0.093600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007158 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 61.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.006 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3007ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (2781ms)
+			LoadAssemblies (191ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1021ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (113ms)
+			SetupLoadedEditorAssemblies (1200ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (1037ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1967 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.7 MB.
+System memory in use after: 91.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2418.
+Total: 3.055000 ms (FindLiveObjects: 0.226600 ms CreateObjectMapping: 0.082700 ms MarkObjects: 2.651800 ms  DeleteObjects: 0.092800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4921.802094 seconds.
+  path: Assets/Resources/Characters
+  artifactKey: Guid(7ac8ab5c1d25a974c86bd3b93382440b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters using Guid(7ac8ab5c1d25a974c86bd3b93382440b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef17423ace59d5674b8b0a415ae75e2') in 0.058576 seconds 
+  Import took 0.100202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.996314 seconds.
+  path: Assets/Resources/Characters/knight
+  artifactKey: Guid(ccb6a044cdef55444b46fc6dc8c372cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/knight using Guid(ccb6a044cdef55444b46fc6dc8c372cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b352460f80fd467e212fd31bf602ac4') in 0.009409 seconds 
+  Import took 0.013516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.312315 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/!$LegendaryKnightMichael.png
+  artifactKey: Guid(952df1e4ebe80d7469f4751b0d43efa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/!$LegendaryKnightMichael.png using Guid(952df1e4ebe80d7469f4751b0d43efa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc8489b98ff0d7da69487a2e84936d9') in 3.625400 seconds 
+  Import took 3.630224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.850315 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/!$LegendaryKnightMichael.png
+  artifactKey: Guid(952df1e4ebe80d7469f4751b0d43efa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/!$LegendaryKnightMichael.png using Guid(952df1e4ebe80d7469f4751b0d43efa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc8489b98ff0d7da69487a2e84936d9') in 1.644454 seconds 
+  Import took 1.648653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.782399 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/Static
+  artifactKey: Guid(4815cb4a97a27ab40ae327711ce01dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/Static using Guid(4815cb4a97a27ab40ae327711ce01dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9d69de1b8203db30bf700246677243') in 0.422351 seconds 
+  Import took 0.426953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.904760 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.png
+  artifactKey: Guid(fd3be12f9d5f67841b41d60c172e6cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.png using Guid(fd3be12f9d5f67841b41d60c172e6cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bd2b61abd8caffd58f998dbecdbf61') in 0.058488 seconds 
+  Import took 0.062790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psd
+  artifactKey: Guid(820fcf66759f05348b336c4940b5d873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psd using Guid(820fcf66759f05348b336c4940b5d873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1daf874eae99ef97ac21d6ce2f99a2e0') in 0.028955 seconds 
+  Import took 0.032580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001927 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psd
+  artifactKey: Guid(820fcf66759f05348b336c4940b5d873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psd using Guid(820fcf66759f05348b336c4940b5d873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1daf874eae99ef97ac21d6ce2f99a2e0') in 0.019266 seconds 
+  Import took 0.023690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.159632 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets
+  artifactKey: Guid(281c83bb39729b94c9fa40e59147c0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets using Guid(281c83bb39729b94c9fa40e59147c0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6459555ae879e204d7abda74f900d7cb') in 0.008866 seconds 
+  Import took 0.012664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.850009 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/Static/Front/Legendary Knight Michael.png
+  artifactKey: Guid(ab2588d68f95a8848998b299519db3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/Static/Front/Legendary Knight Michael.png using Guid(ab2588d68f95a8848998b299519db3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319521317ea3ad99e012ebc8482b70ba') in 0.079540 seconds 
+  Import took 0.084178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.966409 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/Static/Side/Legendary Knight Michael.png
+  artifactKey: Guid(77d0b3e818d1330458aa58e2ce65c716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/Static/Side/Legendary Knight Michael.png using Guid(77d0b3e818d1330458aa58e2ce65c716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f711a0b45dac0caa7a99f0d01b548f6d') in 0.029060 seconds 
+  Import took 0.032807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1836.682161 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex 1.psd
+  artifactKey: Guid(4bddb5518c1b6024f8aae23cac00260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex 1.psd using Guid(4bddb5518c1b6024f8aae23cac00260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e630d86cc6f9b29e4920b09e16526a') in 0.037771 seconds 
+  Import took 0.042687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004290 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex 1.psd
+  artifactKey: Guid(4bddb5518c1b6024f8aae23cac00260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex 1.psd using Guid(4bddb5518c1b6024f8aae23cac00260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e630d86cc6f9b29e4920b09e16526a') in 0.019443 seconds 
+  Import took 0.023708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.653737 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psd
+  artifactKey: Guid(4bddb5518c1b6024f8aae23cac00260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psd using Guid(4bddb5518c1b6024f8aae23cac00260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87e0ea28ce69e51ea655519f7c8ada0') in 0.024232 seconds 
+  Import took 0.027968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 250.153747 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb
+  artifactKey: Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb using Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07deba482556426af4e3ae70d486fe12') in 0.582645 seconds 
+  Import took 0.588376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.679144 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex (2).png
+  artifactKey: Guid(d4c023de3447b7f4d953b61a72bda9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex (2).png using Guid(d4c023de3447b7f4d953b61a72bda9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffda18dc8977b2bd066e7ba7c0bd1566') in 0.030700 seconds 
+  Import took 0.035606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.849131 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex (2).png
+  artifactKey: Guid(d4c023de3447b7f4d953b61a72bda9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex (2).png using Guid(d4c023de3447b7f4d953b61a72bda9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126cfb750729e8ab372fb5ad22bd6f61') in 0.018076 seconds 
+  Import took 0.022585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 558.034154 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb
+  artifactKey: Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb using Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1817ea1a9cc4bfdfadcbe1cdab5307') in 0.126979 seconds 
+  Import took 0.134439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1241.287664 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb
+  artifactKey: Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb using Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb7026e663c1e01443385ff7305fa45') in 0.195139 seconds 
+  Import took 0.200455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 587.707192 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb
+  artifactKey: Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb using Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6836debca0483be7b302ee6c3b617fb8') in 0.173108 seconds 
+  Import took 0.177864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 198.714000 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb
+  artifactKey: Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb using Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa1cc84926571a1b41b61694138cca3') in 0.156099 seconds 
+  Import took 0.160076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1653.261104 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb
+  artifactKey: Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb using Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3113a7574b16871b6197830a80c176') in 0.155053 seconds 
+  Import took 0.159720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 560.816067 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb
+  artifactKey: Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb using Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a93e69f89d225295d0bc17030231077') in 0.213972 seconds 
+  Import took 0.218923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 321.509177 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb
+  artifactKey: Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb using Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5c83dd413d2cea32fceafe9fa0a1d9') in 0.165063 seconds 
+  Import took 0.169573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 312.505086 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb
+  artifactKey: Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb using Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa591d8b81e154786c3133de1a994b2') in 0.133776 seconds 
+  Import took 0.144425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.333873 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psd
+  artifactKey: Guid(4bddb5518c1b6024f8aae23cac00260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psd using Guid(4bddb5518c1b6024f8aae23cac00260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a802ce09c788f41e5fa748b73299b7') in 0.042563 seconds 
+  Import took 0.047284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.194761 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb
+  artifactKey: Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb using Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9f5d9a5295b86d5f4d91560104503d') in 0.147316 seconds 
+  Import took 0.151556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 241.259732 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb
+  artifactKey: Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb using Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6cb9efc511cb9c6f2b938a1fcdafa3') in 0.153900 seconds 
+  Import took 0.159192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1628.238626 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb
+  artifactKey: Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb using Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5d570b9b8510e280b020c56b84a0f0') in 0.205442 seconds 
+  Import took 0.213897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1439.855902 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb
+  artifactKey: Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb using Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30a1113ead4d005ef92e050c8dbf308') in 0.251622 seconds 
+  Import took 0.257634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1492.041495 seconds.
+  path: Assets/Resources/Prefabs/Character
+  artifactKey: Guid(5ce42306a18c03b48b47ce344b5477c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Character using Guid(5ce42306a18c03b48b47ce344b5477c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c58d7e53e4df913d56805025f1cbbd') in 0.012660 seconds 
+  Import took 0.018110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.427476 seconds.
+  path: Assets/Resources/Prefabs/Character/Player.prefab
+  artifactKey: Guid(5d886c0bb45692b4da85551e9c353e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Character/Player.prefab using Guid(5d886c0bb45692b4da85551e9c353e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0684560a4c0df042f36f381dfb672729') in 0.069288 seconds 
+  Import took 0.075219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003594 seconds.
+  path: Assets/Resources/Prefabs/Character/Player.prefab
+  artifactKey: Guid(5d886c0bb45692b4da85551e9c353e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Character/Player.prefab using Guid(5d886c0bb45692b4da85551e9c353e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0684560a4c0df042f36f381dfb672729') in 0.025759 seconds 
+  Import took 0.031311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 850.067078 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael
+  artifactKey: Guid(4e38de3d483ba78499ce38c1da5442f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael using Guid(4e38de3d483ba78499ce38c1da5442f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2162ac842d374bccff0900bd37b911c') in 0.009838 seconds 
+  Import took 0.014980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000691 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael
+  artifactKey: Guid(4e38de3d483ba78499ce38c1da5442f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael using Guid(4e38de3d483ba78499ce38c1da5442f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2162ac842d374bccff0900bd37b911c') in 0.008444 seconds 
+  Import took 0.013464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.655791 seconds.
+  path: Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb
+  artifactKey: Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Characters/Aekashics-Librarium-Legendary-Knight-Michael/dragonbones_assets/Michael_tex.psb using Guid(bbf43fb4c9647424e8a7ba209e2cb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a720e3a2258c3680a9737cdb4cba535') in 0.316568 seconds 
+  Import took 0.329767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 230.716391 seconds.
+  path: Assets/Resources/Prefabs/Character/Player.prefab
+  artifactKey: Guid(5d886c0bb45692b4da85551e9c353e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Character/Player.prefab using Guid(5d886c0bb45692b4da85551e9c353e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98978d366c56309efecd8ee0eb63cb88') in 0.027312 seconds 
+  Import took 0.032204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.583496 seconds.
+  path: Assets/Resources/Prefabs/Character/Kinght
+  artifactKey: Guid(acd9a85f0a7161845afad50a26b0143a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Character/Kinght using Guid(acd9a85f0a7161845afad50a26b0143a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3abad65c7e7b1bceb9a47d1dfbf980') in 0.009956 seconds 
+  Import took 0.014885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.939149 seconds.
+  path: Assets/Resources/Animations
+  artifactKey: Guid(ab0b93602236cf54cb2204f504c73f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animations using Guid(ab0b93602236cf54cb2204f504c73f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3659cf84f0cb0a36402960fab8a3685') in 0.010238 seconds 
+  Import took 0.014523 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.112343 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.396 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3405ms)
+		BeginReloadAssembly (470ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (224ms)
+		EndReloadAssembly (2771ms)
+			LoadAssemblies (286ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (623ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (1623ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (252ms)
+				ProcessInitializeOnLoadAttributes (1341ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1967 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.2 MB.
+System memory in use after: 95.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2491.
+Total: 4.074200 ms (FindLiveObjects: 0.250800 ms CreateObjectMapping: 0.077000 ms MarkObjects: 3.635300 ms  DeleteObjects: 0.110000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
